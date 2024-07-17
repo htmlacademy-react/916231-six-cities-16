@@ -1,15 +1,15 @@
 export type CardProps = {
-    id: string;
-    title: string;
-    type: string;
-    price: number;
-    city: {
-      name: string;
-    };
-    isFavorite: boolean;
-    isPremium: boolean;
-    rating: number;
-    previewImage: string;
+  id: string;
+  title: string;
+  type: string;
+  price: number;
+  city: {
+    name: string;
+  };
+  isFavorite: boolean;
+  isPremium: boolean;
+  rating: number;
+  previewImage: string;
 }
 
 function Card({offer}: {offer :CardProps}): JSX.Element {
